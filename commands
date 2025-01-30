@@ -1,0 +1,72 @@
+1. File and Directory Operations
+ls → List files in a directory
+pwd → Print working directory
+cd <directory> → Change directory
+mkdir <directory> → Create a new directory
+rmdir <directory> → Remove an empty directory
+rm <file> → Remove a file
+cp <source> <destination> → Copy files
+mv <source> <destination> → Move or rename files
+
+
+2. File Content Operations
+cat <file> → Display file content
+tac <file> → Display file content in reverse
+more <file> → View file content page by page
+less <file> → View file with navigation
+head -n <number> <file> → Show first N lines
+tail -n <number> <file> → Show last N lines
+grep "pattern" <file> → Search for a pattern in a file
+
+
+3. Permissions and Ownership
+chmod 755 <file> → Change file permissions
+chown user:group <file> → Change file owner
+ls -l → List files with permissions
+
+
+4. Process Management
+ps → View running processes
+top → Display real-time process info
+kill <PID> → Terminate a process by PID
+killall <process_name> → Kill all processes by name
+
+
+5. Networking
+ping <host> → Check connectivity
+netstat -tulnp → List open ports
+curl <URL> → Fetch web content
+wget <URL> → Download a file
+
+
+6. Text Processing
+awk '{print $1}' <file> → Extract specific columns
+sed 's/old/new/g' <file> → Replace text in a file
+cut -d':' -f1 <file> → Cut fields from a file
+sort <file> → Sort lines in a file
+uniq <file> → Remove duplicate lines
+
+
+7. Compression & Archiving
+tar -cvf archive.tar <files> → Create an archive
+tar -xvf archive.tar → Extract an archive
+zip file.zip <files> → Create a ZIP file
+unzip file.zip → Extract a ZIP file
+
+
+8. System Information
+df -h → Disk space usage
+du -sh <directory> → Directory size
+free -m → Check RAM usage
+uptime → System uptime
+whoami → Current user
+hostname → System hostname
+
+
+9. Shell Scripting Basics
+#!/bin/bash → Define script interpreter
+echo "Hello, World!" → Print message
+read var → Read user input
+if [ condition ]; then ... fi → Conditional statements
+for var in {1..5}; do ... done → Loops
+while [ condition ]; do ... done → While loop
