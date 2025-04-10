@@ -4,7 +4,8 @@ ashutoshsanjayshimpi@192 ~ % find . -name a
 
 
 To find empty file
-find /home -type f -empty
+find . /home -type d -empty
+
 
 To find empty dir
-find /home -type d -empty
+find . /home -type d -empty
