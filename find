@@ -1,2 +1,10 @@
 ashutoshsanjayshimpi@192 ~ % find . -name a
 ./Desktop/prac/A/a
+
+
+
+To find empty file
+find /home -type f -empty
+
+To find empty dir
+find /home -type d -empty
